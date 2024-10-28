@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stopwatch-container">
+    <h1 class="title">Stop Watch</h1>
+    <div class="timer-box">
+        <div class="time-section">
+            <div id="hour" class="time-value">0</div>
+            <div class="time-label">Hour</div>
+        </div>
+        <div class="time-section">
+            <div id="min" class="time-value">0</div>
+            <div class="time-label">Minute</div>
+        </div>
+        <div class="time-section">
+            <div id="sec" class="time-value">0</div>
+            <div class="time-label">Second</div>
+        </div>
+        <div class="time-section">
+            <div id="msec" class="time-value">0</div>
+            <div class="time-label">Millisecond</div>
+        </div>
+    </div>
+    <div>
+        <button class="start-btn" onclick="start()">Start</button>
+        <button class="stop-btn" onclick="stop()">Stop</button>
+        <button class="reset-btn" onclick="reset()">Reset</button>
+    </div>
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>

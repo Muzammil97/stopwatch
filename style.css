@@ -1,0 +1,76 @@
+/* Center everything and set up the basic styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+/* Main container styling */
+.stopwatch-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Heading styling */
+.title {
+    font-size: 2rem;
+    margin: 0;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Timer box styling */
+.timer-box {
+    display: flex;
+    border: red 1px solid;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Individual time section styling */
+.time-section {
+    text-align: center;
+}
+
+.time-label {
+    font-size: 0.8rem;
+    color: #555555;
+}
+
+.time-value {
+    font-size: 2rem;
+    color: #ff4500;
+}
+
+/* Button styling */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Button colors */
+.start-btn { background-color: #4CAF50; }
+.stop-btn { background-color: #f44336; }
+.reset-btn { background-color: #ff9800; }
